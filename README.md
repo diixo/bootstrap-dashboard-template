@@ -1,1 +1,1 @@
-# bootstrap-dashboard-example
+# bootstrap-dashboard-template
