@@ -61,6 +61,21 @@
         white-space: nowrap;
         -webkit-overflow-scrolling: touch;
       }
+      .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 113, 44, 249;
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+      }
     </style>
   </head>
   <body>
@@ -152,7 +167,7 @@
         ></path>
       </symbol>
     </svg>
-    <header class="navbar sticky-top bg-body-tertiary flex-md-nowrap p-0 shadow">
+    <header class="navbar sticky-top bg-body-tertiary flex-md-nowrap p-0 shadow-sm">
       <a
         class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6"
         href="#"
@@ -210,7 +225,7 @@
             id="sidebarMenu"
             aria-labelledby="sidebarMenuLabel"
           >
-            <div class="offcanvas-header shadow">
+            <div class="offcanvas-header shadow-sm">
               <h5 class="offcanvas-title" id="sidebarMenuLabel">
                 Company name
               </h5>
@@ -449,7 +464,7 @@
             </div>
           </div>
 
-          <h2>Section title</h2>
+          <h3>Section title</h3>
 
 
         </main>
