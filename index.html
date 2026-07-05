@@ -167,7 +167,7 @@
         ></path>
       </symbol>
     </svg>
-    <header class="navbar sticky-top flex-md-nowrap p-0 shadow-sm">
+    <header class="navbar sticky-top flex-md-nowrap p-0 shadow-sm bg-white">
       <a
         class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6 bg-secondary-subtle"
         href="#"
@@ -237,8 +237,10 @@
                 aria-label="Close"
               ></button>
             </div>
+
+            <!-- bg-white does not work directly here due to Bootstrap's specificity rules for next div -->
             <div
-              class="offcanvas-body d-md-flex flex-column py-3 ps-2 pe-0 overflow-y-auto"
+              class="offcanvas-body d-md-flex flex-column py-3 ps-2 pe-0 overflow-y-auto" 
             >
               <ul class="nav flex-column">
                 <li class="nav-item">
@@ -479,8 +481,6 @@
           <p>A^3</p>
           <p>A^3</p>
 
-          <p>A^3</p>
-          <p>A^3</p>
           <p>A^3</p>
           <p>A^3</p>
           <p>A^3</p>

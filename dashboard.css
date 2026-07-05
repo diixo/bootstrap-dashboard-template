@@ -29,6 +29,10 @@ main {
 
   .sidebar .offcanvas-body {
     height: 100%;
+    /* Bootstrap forces `.offcanvas-md .offcanvas-body { background: transparent !important }`
+       at >=768px, which outranks the single-class `.bg-white` utility. This 3-class
+       selector is more specific, so it wins and the white background applies. */
+    background-color: #fff !important;
   }
 
   .navbar-search {
