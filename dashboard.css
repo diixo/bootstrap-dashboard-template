@@ -35,7 +35,10 @@ main {
     background-color: #fff !important;
   }
 
-  .navbar-search {
+  /* Must match the specificity of Bootstrap's `.collapse:not(.show){display:none}`
+     (0,2,0) so the search field is shown on desktop; loaded after Bootstrap it
+     then wins by source order. A plain `.navbar-search` (0,1,0) loses to it. */
+  .navbar-search.collapse {
     display: block;
   }
 }
@@ -90,4 +93,14 @@ main {
 
 .navbar .form-control {
   padding: .75rem 1rem;
+}
+
+.form-control {
+  background-color: rgba(255, 255, 255, .1);
+  border-color: rgba(255, 255, 255, .1);
+}
+
+.form-control:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
 }
