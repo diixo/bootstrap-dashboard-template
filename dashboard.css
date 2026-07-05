@@ -5,6 +5,16 @@
 }
 
 /*
+ * Main content
+ * Account for the 48px sticky header so the page doesn't get a phantom
+ * ~48px vertical scroll (the old `min-vh-100` made <main> a full 100vh
+ * *below* the header, overflowing the viewport by the header's height).
+ */
+main {
+  min-height: calc(100vh - 48px);
+}
+
+/*
  * Sidebar
  */
 
@@ -71,7 +81,6 @@
 .navbar-brand {
   padding-top: .75rem;
   padding-bottom: .75rem;
-  background-color: rgba(0, 0, 0, .25);
   box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
 }
 
