@@ -17,6 +17,15 @@
   width: 1rem;
   height: 1rem;
   vertical-align: -0.125em;
+  fill: #585858;
+  stroke: #585858;
+  stroke-width: 0.5;
+}
+
+/* Inside buttons the icon should follow the button's text color (via
+   currentColor) instead of the fixed gray above � so it turns white on
+   hover together with the label. `.btn .bi` (0,2,0) outranks `.bi` (0,1,0). */
+.btn .bi {
   fill: currentColor;
   stroke: currentColor;
   stroke-width: 0.5;
@@ -98,11 +107,33 @@ main {
 .sidebar .nav-link {
   font-size: 0.875rem;
   font-weight: 500;
+  color: rgba(33, 37, 41, 0.75);
 }
 
 .sidebar .nav-link.active {
-  color: #2470dc;
+  border-color: rgba(59, 130, 246, 0.2) !important;
+  background-color: rgba(13, 110, 253, 0.1); /*bg-primary bg-opacity-10*/
+  color: rgb(13, 110, 253); /* text-primary */
+  border: 1px solid;          /* border */
+  border-radius: 0.375rem;    /* rounded */
 }
+
+.sidebar .nav-link.active::after {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--bs-primary);
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+
+.sidebar .nav-link:hover {
+  color: #212529;
+}
+
 
 .sidebar-heading {
   font-size: .75rem;
@@ -140,6 +171,7 @@ main {
 .navbar-brand {
   padding-top: .75rem;
   padding-bottom: .75rem;
+  background-color: rgb(255, 255, 255);
   box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
 }
 
