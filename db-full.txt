@@ -820,6 +820,7 @@ All-Inclusive
 All-Season
 All-Time
 All-To-All
+All-Wheel
 All-around
 All-digital
 All-electric
@@ -829,6 +830,7 @@ All-in-one
 All-season
 All-to-All
 All-to-all
+All-wheel
 Allegations
 Alleged
 Allegedly
@@ -1048,6 +1050,7 @@ Angels
 Anger
 Angers
 Angle
+Angled
 Angles
 Angling
 Angry
@@ -2770,6 +2773,7 @@ Breathes
 Breathing
 Breathless
 Breaths
+Breathtaking
 Bred
 Breed
 Breeder
@@ -3066,6 +3070,7 @@ Cabin
 Cabins
 Cable
 Cables
+Cabriolet
 Cache
 Cache-Control
 Cached
@@ -5172,6 +5177,7 @@ Country's
 Counts
 County
 Coup
+Coupe
 Couple
 Coupled
 Couples
@@ -7003,6 +7009,7 @@ Diversification
 Diversified
 Diversify
 Diversifying
+Diversion
 Diversity
 Divert
 Diverted
@@ -7669,6 +7676,7 @@ Elves
 Emacs
 Email
 Emails
+Emanating
 Embargo
 Embark
 Embarking
@@ -9142,6 +9150,7 @@ Flaky
 Flame
 Flames
 Flammable
+Flank
 Flap
 Flapping
 Flare
@@ -10484,6 +10493,8 @@ Halfling
 Halflings
 Halfway
 Hall
+Hallmark
+Hallmarks
 Halloween
 Halls
 Hallucinate
@@ -11435,6 +11446,7 @@ Illustration
 Illustrations
 Illustrative
 Illustrator
+Illustrious
 Image
 Image-Based
 Image-Caption
@@ -13189,6 +13201,7 @@ Leaky
 Lean
 Leaning
 Leap
+Leaping
 Leaps
 Learn
 Learnability
@@ -14436,6 +14449,7 @@ Microwaving
 Mid
 Mid-Level
 Mid-Range
+Mid-engine
 Mid-level
 Mid-range
 Mid-size
@@ -17123,7 +17137,9 @@ Perforce
 Perform
 Performance
 Performance-Based
+Performance-Oriented
 Performance-based
+Performance-oriented
 Performances
 Performant
 Performed
@@ -17816,6 +17832,7 @@ Power-up
 PowerBI
 PowerPoint
 PowerShell
+PowerTrain
 Powered
 Powerful
 Powerhouse
@@ -17823,6 +17840,8 @@ Powering
 Powerpoint
 Powers
 Powershell
+Powertrain
+Powertrains
 Practicable
 Practical
 Practicality
@@ -20876,6 +20895,7 @@ Scrutiny
 Scuffed
 Scull
 Sculls
+Sculpted
 Sculptor
 Sculptors
 Sculpture
@@ -23171,6 +23191,8 @@ Super-fast
 Super-resolution
 SuperStar
 Superb
+Supercar
+Supercars
 Supercharge
 Supercharger
 Superchargers
@@ -25726,6 +25748,7 @@ Vent
 Ventilated
 Ventilation
 Ventilator
+Vents
 Venture
 Ventures
 Venturing
@@ -27667,6 +27690,7 @@ all-powerful
 all-season
 all-time
 all-to-all
+all-wheel
 allay
 allegations
 allege
@@ -27945,6 +27969,7 @@ angered
 angering
 angers
 angle
+angled
 angles
 angling
 angrier
@@ -29792,6 +29817,7 @@ bodies
 bodily
 body
 bodyguards
+bodywork
 boggle
 boggled
 boggles
@@ -30045,6 +30071,7 @@ breathes
 breathing
 breathless
 breaths
+breathtaking
 bred
 breed
 breeder
@@ -30378,6 +30405,7 @@ cabins
 cable
 cabled
 cables
+cabriolet
 cache
 cache-control
 cacheable
@@ -32945,6 +32973,7 @@ countryside
 counts
 county
 coup
+coupe
 couple
 coupled
 couples
@@ -35327,6 +35356,7 @@ diversified
 diversifies
 diversify
 diversifying
+diversion
 diversity
 divert
 diverted
@@ -36161,6 +36191,10 @@ email-header
 emailed
 emailing
 emails
+emanate
+emanated
+emanates
+emanating
 emancipated
 embarassing
 embargo
@@ -38002,6 +38036,8 @@ flaky
 flame
 flames
 flammable
+flank
+flanked
 flap
 flapping
 flare
@@ -39586,6 +39622,7 @@ guitarists
 guitars
 gull
 gulls
+gullwing
 gulp
 gum
 gums
@@ -39662,6 +39699,8 @@ halfling
 halflings
 halfway
 hall
+hallmark
+hallmarks
 halloween
 halls
 hallucinate
@@ -40759,6 +40798,7 @@ illustration
 illustrations
 illustrative
 illustrator
+illustrious
 imac
 image
 image-based
@@ -43060,6 +43100,7 @@ leaned
 leaning
 leans
 leap
+leaping
 leaps
 leapt
 learn
@@ -44480,6 +44521,7 @@ microwave
 microwaves
 microwaving
 mid
+mid-engine
 mid-level
 mid-range
 mid-size
@@ -45083,6 +45125,7 @@ motives
 motor
 motorcycle
 motorcycles
+motoring
 motorist
 motorists
 motorize
@@ -46809,6 +46852,7 @@ outlasting
 outlasts
 outlaw
 outlawed
+outlay
 outlet
 outlets
 outlier
@@ -47678,6 +47722,7 @@ perforce
 perform
 performance
 performance-based
+performance-oriented
 performances
 performant
 performed
@@ -48534,6 +48579,8 @@ powerless
 powerpoint
 powers
 powershell
+powertrain
+powertrains
 pqi
 practicable
 practical
@@ -51647,6 +51694,7 @@ retrievers
 retrieves
 retrieving
 retro
+retro-futuristic
 retrospect
 retrospective
 retrospectives
@@ -52567,8 +52615,11 @@ scuffing
 scuffle
 scull
 sculls
+sculpt
+sculpted
 sculptor
 sculptors
+sculptural
 sculpture
 sculptures
 scum
@@ -52621,6 +52672,8 @@ seat
 seatbelt
 seatbelts
 seated
+seater
+seaters
 seats
 seclude
 secluded
@@ -54369,6 +54422,8 @@ sporadically
 spore
 spores
 sport
+sportier
+sportiness
 sporting
 sports
 sporty
@@ -55487,6 +55542,8 @@ super-productive
 super-resolution
 superadded
 superb
+supercar
+supercars
 supercharge
 supercharger
 superchargers
@@ -56932,6 +56989,8 @@ tougher
 toughest
 toughness
 tour
+tourer
+tourers
 tourism
 tourist
 tourists
@@ -58898,6 +58957,7 @@ ventilated
 ventilates
 ventilation
 ventilator
+vents
 venture
 ventured
 ventures
