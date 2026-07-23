@@ -190,14 +190,13 @@
 
         <main class="col-md-9 col-lg-10 ms-sm-auto p-md-4 d-flex flex-column bg-body-tertiary">
 
-
-
+<h4 class="mb-3">Text Dictionary Check</h4>
 
 <div class="container p-0">
     <div class="card shadow-sm">
         <div class="card-body p-4">
 
-          <h3>Проверка текста по словарю</h3>
+          <label class="form-label">Unknown Word Checker</label>
 
             <!-- Статус загрузки словаря -->
             <div
@@ -205,28 +204,28 @@
                 class="alert alert-secondary"
                 role="alert"
             >
-                Загрузка словаря...
+                Loading dictionary...
             </div>
 
             <div class="row g-4">
                 <!-- Поле исходного текста -->
-                <div class="col-lg-6">
+                <div class="col-lg-9">
                     <label for="sourceText" class="form-label">
-                        Исходный текст
+                        Source Text
                     </label>
 
                     <textarea
                         id="sourceText"
                         class="form-control"
                         rows="15"
-                        placeholder="Введите текст для проверки..."
+                        placeholder="Enter text for checking..."
                     ></textarea>
                 </div>
 
                 <!-- Поле неизвестных слов -->
-                <div class="col-lg-6">
+                <div class="col-lg-3">
                     <label for="unknownWords" class="form-label">
-                        Слова, отсутствующие в словаре
+                        Unknown Words
                     </label>
 
                     <textarea
@@ -234,7 +233,7 @@
                         class="form-control"
                         rows="15"
                         readonly
-                        placeholder="Здесь появятся неизвестные слова..."
+                        placeholder="Unknown words will appear here..."
                     ></textarea>
                 </div>
             </div>
@@ -244,39 +243,39 @@
                 <button
                     id="checkButton"
                     type="button"
-                    class="btn btn-primary"
+                    class="btn btn-blue px-3"
                     disabled
                 >
-                    Проверить текст
+                    Check Text
                 </button>
 
                 <button
                     id="clearButton"
                     type="button"
-                    class="btn btn-outline-secondary"
+                    class="btn btn-outline-secondary px-3"
                 >
-                    Очистить
+                    Clear
                 </button>
 
                 <button
                     id="copyButton"
                     type="button"
-                    class="btn btn-outline-primary"
+                    class="btn btn-outline-primary px-3"
                     disabled
                 >
-                    Копировать результат
+                    Copy Results
                 </button>
             </div>
 
             <!-- Статистика -->
             <div class="mt-4">
                 <div>
-                    Всего слов в тексте:
+                    Total words in text:
                     <strong id="totalWordsCount">0</strong>
                 </div>
 
                 <div>
-                    Уникальных неизвестных слов:
+                    Unique unknown words:
                     <strong id="unknownWordsCount">0</strong>
                 </div>
             </div>
@@ -391,12 +390,12 @@
                 "alert alert-success";
 
             dictionaryStatusElement.textContent =
-                `Словарь загружен. Количество слов: ${dictionary.size}.`;
+                `Dictionary loaded. Words: ${dictionary.size}.`;
 
             checkButton.disabled = false;
         } catch (error) {
             console.error(
-                "Не удалось загрузить словарь:",
+                "Failed to load dictionary:",
                 error
             );
 
@@ -404,9 +403,9 @@
                 "alert alert-danger";
 
             dictionaryStatusElement.textContent =
-                "Не удалось загрузить файл db-full.txt. " +
-                "Убедитесь, что файл находится рядом с index.html " +
-                "и страница открыта через локальный HTTP-сервер.";
+                "Failed to load db-full.txt file. " +
+                "Please ensure the file is located next to index.html " +
+                "and the page is opened through a local HTTP server.";
 
             checkButton.disabled = true;
         }
@@ -428,7 +427,7 @@
 
             copyButton.disabled = true;
 
-            alert("Введите текст для проверки.");
+            alert("Please enter text for checking.");
 
             sourceTextElement.focus();
 
@@ -506,7 +505,7 @@
 
             const originalText = copyButton.textContent;
 
-            copyButton.textContent = "Скопировано";
+            copyButton.textContent = "Copied";
             copyButton.disabled = true;
 
             setTimeout(() => {
@@ -515,7 +514,7 @@
             }, 1000);
         } catch (error) {
             console.error(
-                "Не удалось скопировать текст:",
+                "Failed to copy text:",
                 error
             );
 
